@@ -2,8 +2,74 @@
     padding: 0;
     margin: 0;
     box-sizing : border-box ;
-    }
+}
 
 html{
 font-size : 62.5% 
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+.header__section-first{
+    display: inline-flex;
+    width: 39%;
+    height: 15rem;
+    margin: 1rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20%;
+    background-image: url(../img/gatihuellitas.jpg);
+}
+.header__section-second{
+    display: inline-flex;
+    width: 59%;
+    height: 15rem;
+    align-items: center;
+    justify-content: center;
+
+}
+.header__section-first--h1{
+    font-size: 4.5rem;
+    color: palevioletred;
+}
+.header__section-first--h1:hover{
+    -webkit-transform: skew(10deg);
+    transform: skew(20deg);
+    font-size: 5rem;
+    transition: 0.7s;
+}
+.header__section__nav--a{
+    padding: 3rem 4.5rem;
+    margin:0.2rem;
+    background-color: snow;
+    border-radius: 10%;
+    font-size: 2.5rem;
+    color: dimgrey;
+}
+.header__section__nav--a:hover{
+    color: mediumturquoise;
+    transition: 0.5s;
+    border: 0.4rem dashed black ;
+}
+.header__section__figure{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    background-image:url(../img/perrito\ 2.1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.header__section__figure--img{
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+}
+.header__section__figure--img:hover{
+    opacity: 0;
+    transition: 0.7s;
+}
+body{
+    background-image:url(../img/20499208-huella-de-perro-sobre-fondo-blanco-ilustraci-n-vectorial-Foto-de-archivo.jpg);
 }
