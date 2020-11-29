@@ -11,13 +11,76 @@ a:link, a:visited, a:active {
 html{
     font-size : 62.5%
 }
+.header__section-first{
+    display: inline-flex;
+    width: 39%;
+    height: 15rem;
+    margin: 1rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20%;
+    background-image: url(../img/Fondo\ huellitas\ gatitos.jpg);
+}
+.header__section-second{
+    display: inline-flex;
+    width: 59%;
+    height: 15rem;
+    align-items: center;
+    justify-content: center;
+
+}
+.header__section-first--h1{
+    font-size: 4.5rem;
+    color: palevioletred;
+}
+.header__section-first--h1:hover{
+    -webkit-transform: skew(10deg);
+    transform: skew(20deg);
+    font-size: 5rem;
+    transition: 0.7s;
+}
+.header__section__nav--a{
+    padding: 3rem 4.5rem;
+    margin:0.2rem;
+    background-color: snow;
+    border-radius: 10%;
+    font-size: 2.5rem;
+    color: dimgrey;
+}
+.header__section__nav--a:hover{
+    color: mediumturquoise;
+    transition: 0.5s;
+    border: 0.4rem dashed black ;
+}
+.header__section__figure{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    background-image:url(../img/Banner\ perritos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.header__section__figure--img{
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+}
+.header__section__figure--img:hover{
+    opacity: 0;
+    transition: 0.7s;
+}
+body{
+    background-image:url(../img/Fondo\ huellitas.jpg);
+}
 .main__section-Title{
     margin-top:0rem;
     margin-left:4rem; 
     padding: 3rem;
     width: 125rem;
     height: 10rem;
-    background-color: rgb(72, 132, 241);
+    background-color: peachpuff;
+    color: palevioletred;
     text-align: center;
     font-size: 5rem;
 }
@@ -36,8 +99,8 @@ html{
     margin: 0.5rem;
     width: 25%;
     height: 50rem;
-    border: 0.8rem solid black; 
-    box-shadow: 5px -5px 0 2px rgb(45, 80, 71);
+    border: 0.8rem solid mistyrose; 
+    box-shadow: 5px -5px 0 2px lightcyan;
 }
 
 .main__section__article--img{
@@ -45,7 +108,7 @@ html{
     height: 18rem;
     width: 18rem;
     object-fit: contain;
-    border:0.3rem groove black;
+    border:0.5rem groove blanchedalmond;
 }
 
 .main__section__article--h2{
