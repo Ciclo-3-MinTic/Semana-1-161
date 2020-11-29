@@ -1,9 +1,9 @@
+/* Aspectos generales CSS en la Pagina Web */
 *{
     padding: 0;
     margin: 0;
     box-sizing : border-box ;
     }
-
 a:link, a:visited, a:active {
         text-decoration:none;
     }
@@ -11,6 +11,45 @@ a:link, a:visited, a:active {
 html{
     font-size : 62.5%
 }
+body{
+    background-image:url(../img/Fondo\ huellitas.jpg);
+}
+h2{
+    font-family: 'Rubik', sans-serif;
+}
+p{
+    font-family: 'Sansita Swashed', cursive;
+}
+figcaption{
+    margin: 1.2rem 0rem 0rem 0rem;
+    padding-left: 00.5rem;
+    padding-bottom: 0.2rem;
+    font-size: 1.3rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.main__section-Title{
+    margin:1rem 4.5rem 1rem 4.5rem;
+    padding: 3rem;
+    width: 125rem;
+    height: 10rem;
+    background-color: peachpuff;
+    color: palevioletred;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 5rem;
+}
+.main__section{
+    margin: 4.5rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    padding: 3rem;
+    width: 125rem;
+    height: 60rem;
+    display: inline-flex;
+    background-color: rgb(144, 224, 248);
+}
+
+/* Inicio seccion header */
 .header__section-first{
     display: inline-flex;
     width: 39%;
@@ -19,6 +58,7 @@ html{
     align-items: center;
     justify-content: center;
     border-radius: 20%;
+    font-family: 'Rubik', sans-serif;
     background-image: url(../img/Fondo\ huellitas\ gatitos.jpg);
 }
 .header__section-second{
@@ -34,9 +74,8 @@ html{
     color: palevioletred;
 }
 .header__section-first--h1:hover{
-    -webkit-transform: skew(10deg);
-    transform: skew(20deg);
     font-size: 5rem;
+    color:rgb(247, 99, 202);
     transition: 0.7s;
 }
 .header__section__nav--a{
@@ -44,8 +83,9 @@ html{
     margin:0.2rem;
     background-color: snow;
     border-radius: 10%;
-    font-size: 2.5rem;
     color: dimgrey;
+    font-size: 2.5rem;
+    font-family: 'Rubik', sans-serif;
 }
 .header__section__nav--a:hover{
     
@@ -69,32 +109,119 @@ html{
 }
 .header__section__figure--img:hover{
     opacity: 0;
-    transition: 0.7s;
+    transition: 0.8s;
 }
-body{
-    background-image:url(../img/Fondo\ huellitas.jpg);
+
+/* Fin Css Seccion Header */
+
+/* Inicio Seccion Services */
+
+.main__section-services__article{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
-.main__section-Title{
-    margin-top:0rem;
-    margin-left:4rem; 
-    padding: 3rem;
-    width: 125rem;
-    height: 10rem;
-    background-color: peachpuff;
-    color: palevioletred;
-    text-align: center;
-    font-size: 5rem;
+.main__section-services__article__aside{
+    margin: 1.5rem;
+    width: 30%;
+    height: 45rem;
+    border: 0.8rem solid mistyrose; 
+    box-shadow: 5px -5px 0 2px lightcyan;
 }
-.main__section{
-    margin: 4rem;
+
+.main__section-services__article__figure{
+    overflow:hidden;
+    padding-bottom: 0.5rem;
+
+}
+.main__section-services__article--img{
+    margin-top: 2rem;
+    margin-left: 4.2rem;
+    margin-bottom: 0.5rem;
+    height: 16rem;
+    width: 25rem;
+    object-fit: cover;
+    border:0.5rem groove blanchedalmond;
+}
+.main__section-services__article--img:hover{
+    border-radius: 50%;
+    border: 0.5rem solid  blanchedalmond;
+    filter: saturate(180%);
+    -webkit-transform:scale(1.14);transform:scale(1.14);
+    transition: 0.8s;
+}
+.main__section-services__article__aside__section--h2{
+    margin: 0.5rem;
+    font-size: 2rem;
+}
+
+.main__section-services__article__aside__section--p{
+    margin: 0.5rem;
+    font-size: 1.5rem;
+}
+/* Fin Css Seccion Services */
+
+/* inicio Css Seccion News */
+/* main-section codificado para la seccion news */
+.main__section-modified-news{
+    margin: 4.5rem;
     margin-top: 0rem;
     margin-bottom: 0rem;
     padding: 3rem;
     width: 125rem;
-    height: 60rem;
-    display: inline-flex;
+    height: 95rem;
     background-color: rgb(144, 224, 248);
 }
+/*  */
+.main__section-news__article__section{
+    width: 45rem;
+    height: 35rem;
+    margin: 0rem;
+    display: inline-table;
+}
+
+.main__section-news__article{
+    width: 50rem;
+    height: 40rem;
+    text-align: justify;
+    margin:0rem 4.5rem 2rem 4.5rem;
+    display: inline-table;
+}
+.main__section-news__article:hover{
+    background-color: snow;
+    box-shadow: 5px -5px 0 2px  blanchedalmond;
+    transition: 0.5s;
+}
+.main__section-news__article__section--p{
+    font-size: 1.5rem;
+}
+.main__section-news__article__section__figure{
+    width: 25rem;
+    height: 19rem;
+    float: left;
+    margin-right: 0.9rem;
+
+}
+.main__section-news__article__section__figure--img{
+    margin: 0.3rem;
+    height: 16rem;
+    width: 25rem;
+    object-fit: cover;
+}
+.main__section-news__article__section__section-link{
+    font-size: 2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding:1rem;
+}
+.main__section-news__article__section__section-link--a{
+    color: salmon;
+}
+.main__section-news__article__section__section-link--a:hover{
+    color:rgb(247, 99, 202);
+}
+/* Fin Css Seccion News */
+
+/* Inicio Css Seccion Team */
 
 .main__section__article{
     margin: 0.5rem;
@@ -105,16 +232,19 @@ body{
 }
 
 .main__section__article--img{
-    margin: 2rem 0rem 0.5rem 3.5rem;
+
+    margin-top: 2rem;
+    margin-left: 4.2rem;
+    margin-bottom: 0.5rem;
     height: 18rem;
     width: 18rem;
-    object-fit: contain;
+    object-fit: cover;
     border:0.5rem groove blanchedalmond;
 }
 
 .main__section__article--h2{
-    margin: 0.5rem;
-    font-size: 2.5rem;
+    margin: 1rem;
+    font-size: 2rem;
 }
 
 .main__section__article--p{
@@ -127,132 +257,59 @@ body{
     -webkit-transform:scale(1.14);transform:scale(1.14);
     transition: 0.8s;
 }
-
 .main__section__article__figure{
     overflow:hidden;
 }
-figcaption{
-    margin: 1.2rem 0rem 0rem 0rem;
-    padding-left: 00.5rem;
-    font-size: 1.3rem;
-}
-h1 {
-    margin: 15 0 15 0;
-}
+/* Fin Css Seccion Team */
 
-body {
-    background-color: lightskyblue;
-    text-align: center;
-}
+/* Inicio Css Seccion Footer */
 
-a:hover, a:visited, a:link, a:active {
-    text-decoration: none;
-}
-
-p {
-    text-align: justify;
-    text-justify: inter-word;
-    margin: 5 10 10 10;
-}
-
-h3 {
-    text-align: center;
-    margin: 10 10 10 10;
-}
-
-#image {
-    float: left;
-    margin: 0 15 0 15;
-}
-
-.description{
-    
-    text-align: justify;
-    
-    padding-inline-start: 25px;
-    padding-inline-end: 25px;
-    
-}
-.center-h{
-    display: flex;
-   align-items: center;
-   
-}
-
-.link-right{
-    padding: 0px;
-    margin: 0px;
-    width: 100%;
-    font-weight: bolder;
-    text-align: right;
-}
-.twoCols{
-    
-    width: 49%;
-}
 .footer{
-    background-color: burlywood;
-    padding-bottom: 10px;
+    margin: 4.5rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    width: 125rem;
+    height: auto;
+    background-color: snow;
     display: inline-flex;
-}
-.lineal{
-    display: inline-flex;
-}
-.team{
-    font-size: 0.9em;
-    margin-bottom: 7px;
-    margin-right: 42px;
-}
-.name{
-    font-size: 1em;
-    font-weight: bold;
-}
-.seccion1 {
-    display: inline-flex;
-    width: 1200px;
-}
-
-.servicio {
-    width: 33%;
-    background-color: cadetblue;
-    margin-left: 2px;
-    margin-right: 2px;
-    padding-left: 12px;
-    padding-right: 12px;
-    border-radius: 15px;
-}
-
-.servi-img1 {
-    background-image: url(https://caninosyfelinos.com.co/img/portfolio/oftalmologia.jpg);
-}
-
-.servi-img2 {
-    background-image: url(https://www.ces.edu.co/wp-content/uploads/2019/01/cvzmas-1.jpg);
-}
-
-.servi-img3 {
-    background-image: url(https://www.mitiendademascotas.com/web/wp-content/uploads/2017/07/Apertura1-648x324.jpg);
-}
-
-.img-servi {
-    width: 300px;
-    height: 300px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-}
-
-.center-hijos {
-    display: flex;
     justify-content: center;
     align-items: center;
 }
-
-.servi-des {
-    text-align: justify;
+.footer__section-contacs__ul{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 90rem;
 }
-
-.title-servi>h3 {
-    margin: 0px;
-    padding: 0px;
+.footer__section-contacs__ul--ul{
+    width: 22rem;
+    list-style:none;
+    text-align: justify;
+    margin: 1rem 0rem 0rem 1rem;
+}
+li{
+    padding: 0.3rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.1rem;
+}
+.footer__section-contacs__ul--ul--i-name{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.2rem;
+}
+.footer__section-description{
+    margin:0.5rem 2rem 1rem 0rem
+}
+.footer__section--p{
+    font-size: 1.2rem;
+    text-align: justify;
+    padding: 1rem;
+}
+.footer__section__section-link--a{
+    font-size: 1.5rem;
+    color: salmon;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 1rem;
+}
+.footer__section__section-link--a:hover{
+    color:rgb(247, 99, 202);
 }
