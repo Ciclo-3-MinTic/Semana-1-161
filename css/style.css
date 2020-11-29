@@ -48,7 +48,8 @@ html{
     color: dimgrey;
 }
 .header__section__nav--a:hover{
-    color: mediumturquoise;
+    
+    color:  palevioletred;
     transition: 0.5s;
     border: 0.4rem dashed black ;
 }
