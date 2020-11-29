@@ -136,3 +136,123 @@ figcaption{
     padding-left: 00.5rem;
     font-size: 1.3rem;
 }
+h1 {
+    margin: 15 0 15 0;
+}
+
+body {
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 5 10 10 10;
+}
+
+h3 {
+    text-align: center;
+    margin: 10 10 10 10;
+}
+
+#image {
+    float: left;
+    margin: 0 15 0 15;
+}
+
+.description{
+    
+    text-align: justify;
+    
+    padding-inline-start: 25px;
+    padding-inline-end: 25px;
+    
+}
+.center-h{
+    display: flex;
+   align-items: center;
+   
+}
+
+.link-right{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    font-weight: bolder;
+    text-align: right;
+}
+.twoCols{
+    
+    width: 49%;
+}
+.footer{
+    background-color: burlywood;
+    padding-bottom: 10px;
+    display: inline-flex;
+}
+.lineal{
+    display: inline-flex;
+}
+.team{
+    font-size: 0.9em;
+    margin-bottom: 7px;
+    margin-right: 42px;
+}
+.name{
+    font-size: 1em;
+    font-weight: bold;
+}
+.seccion1 {
+    display: inline-flex;
+    width: 1200px;
+}
+
+.servicio {
+    width: 33%;
+    background-color: cadetblue;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 15px;
+}
+
+.servi-img1 {
+    background-image: url(https://caninosyfelinos.com.co/img/portfolio/oftalmologia.jpg);
+}
+
+.servi-img2 {
+    background-image: url(https://www.ces.edu.co/wp-content/uploads/2019/01/cvzmas-1.jpg);
+}
+
+.servi-img3 {
+    background-image: url(https://www.mitiendademascotas.com/web/wp-content/uploads/2017/07/Apertura1-648x324.jpg);
+}
+
+.img-servi {
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.center-hijos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servi-des {
+    text-align: justify;
+}
+
+.title-servi>h3 {
+    margin: 0px;
+    padding: 0px;
+}
